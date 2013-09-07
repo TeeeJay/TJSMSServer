@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical" >
+    <TextView android:id="@+id/text"
+              android:layout_marginTop="@dimen/activity_horizontal_margin"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="The SMS Server will run in the background if enabled in the settings menu below." />
+    <Button android:id="@+id/settingsButton"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:onClick="startSettingsActivity"/>
+</LinearLayout>
