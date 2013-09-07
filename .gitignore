@@ -33,7 +33,7 @@ local.properties
 
 # Build
 /*/out
-/*/*/build
+*/build
 /*/*/production
 
 # VIM
